@@ -33,7 +33,7 @@
           </a>
           <ul class="nav-menu list">
             <li class="nav-menu-item">
-              <a class="nav-link link" href="./index.html">Studio</a>
+              <a class="nav-link link current" href="./index.html">Studio</a>
             </li>
             <li class="nav-menu-item">
               <a class="nav-link link" href="./portfolio.html">Portfolio</a>
@@ -68,7 +68,7 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="start-screen-button" type="button">
+          <button class="start-screen-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -79,6 +79,16 @@
           <h2 class="visually-hidden">Features</h2>
           <ul class="feature-list list">
             <li class="feature-list-item">
+              <div class="feature-icon-wrapper">
+                <svg
+                  class="icon"
+                  width="64"
+                  height="64"
+                  aria-label="antenna icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="feature-headline">Strategy</h3>
               <p class="feature-text">
                 Our goal is to identify the business problem to walk away with
@@ -86,6 +96,16 @@
               </p>
             </li>
             <li class="feature-list-item">
+              <div class="feature-icon-wrapper">
+                <svg
+                  class="icon"
+                  width="64"
+                  height="64"
+                  aria-label="clock icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="feature-headline">Punctuality</h3>
               <p class="feature-text">
                 Bring the key message to the brand's audience for the best price
@@ -93,6 +113,16 @@
               </p>
             </li>
             <li class="feature-list-item">
+              <div class="feature-icon-wrapper">
+                <svg
+                  class="icon"
+                  width="64"
+                  height="64"
+                  aria-label="diagram icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="feature-headline">Diligence</h3>
               <p class="feature-text">
                 Research and confirm brands that present the strongest digital
@@ -100,6 +130,16 @@
               </p>
             </li>
             <li class="feature-list-item">
+              <div class="feature-icon-wrapper">
+                <svg
+                  class="icon"
+                  width="64"
+                  height="64"
+                  aria-label="astronaut icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="feature-headline">Technologies</h3>
               <p class="feature-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -147,7 +187,9 @@
         <div class="our-team-container container">
           <h2 class="section-headline">Our Team</h2>
 
+          <!-- Member list -->
           <ul class="our-team-list list">
+            <!-- member 1 -->
             <li class="team-card">
               <img
                 src="./images/our-team/Mark.jpg"
@@ -158,8 +200,68 @@
               <div class="member">
                 <h3 class="member-name">Mark Guerrero</h3>
                 <p class="member-description">Product Designer</p>
+                <ul class="member-contacts-list list">
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="instagram icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="twitter icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="facebook icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="linkedin icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
+
+            <!-- member 2 -->
             <li class="team-card">
               <img
                 src="./images/our-team/Tom.jpg"
@@ -170,8 +272,68 @@
               <div class="member">
                 <h3 class="member-name">Tom Ford</h3>
                 <p class="member-description">Frontend Developer</p>
+                <ul class="member-contacts-list list">
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="instagram icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="twitter icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="facebook icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="linkedin icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
+
+            <!-- member 3 -->
             <li class="team-card">
               <img
                 src="./images/our-team/Camila.jpg"
@@ -182,8 +344,68 @@
               <div class="member">
                 <h3 class="member-name">Camila Garcia</h3>
                 <p class="member-description">Marketing</p>
+                <ul class="member-contacts-list list">
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="instagram icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="twitter icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="facebook icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="linkedin icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
+
+            <!-- member 4 -->
             <li class="team-card">
               <img
                 src="./images/our-team/Daniel.jpg"
@@ -194,7 +416,145 @@
               <div class="member">
                 <h3 class="member-name">Daniel Wilson</h3>
                 <p class="member-description">UI Designer</p>
+                <ul class="member-contacts-list list">
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="instagram icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="twitter icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="facebook icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="member-contact-item">
+                    <a href="" class="social-contact-link">
+                      <svg
+                        class="contact-icon"
+                        width="16"
+                        height="16"
+                        aria-label="linkedin icon"
+                      >
+                        <use
+                          href="./images/icons/sprite.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="customers-container container">
+          <h2 class="section-headline">Customers</h2>
+          <ul class="customers-list list">
+            <li class="customer-list-item">
+              <a href="" class="customer-link">
+                <svg
+                  class="customer-icon"
+                  width="104"
+                  height="56"
+                  aria-label="customer-1 icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-client-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer-list-item">
+              <a href="" class="customer-link">
+                <svg
+                  class="customer-icon"
+                  width="104"
+                  height="56"
+                  aria-label="customer-2 icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-client-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer-list-item">
+              <a href="" class="customer-link">
+                <svg
+                  class="customer-icon"
+                  width="104"
+                  height="56"
+                  aria-label="customer-3 icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-client-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer-list-item">
+              <a href="" class="customer-link">
+                <svg
+                  class="customer-icon"
+                  width="104"
+                  height="56"
+                  aria-label="customer-4 icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-client-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer-list-item">
+              <a href="" class="customer-link">
+                <svg
+                  class="customer-icon"
+                  width="104"
+                  height="56"
+                  aria-label="customer-5 icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-client-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer-list-item">
+              <a href="" class="customer-link">
+                <svg
+                  class="customer-icon"
+                  width="104"
+                  height="56"
+                  aria-label="customer-6 icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-client-6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -203,14 +563,81 @@
 
     <footer class="page-footer">
       <div class="footer-container container">
-        <a class="footer-logo link" href="./index.html"
-          >Web<span class="footer-logo-style">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+        <div class="footer-logo-text">
+          <a class="footer-logo link" href="./index.html"
+            >Web<span class="footer-logo-style">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-social">
+          <h3 class="footer-social-header">Social media</h3>
+          <ul class="footer-contacts-list list">
+            <li class="footer-contact-item">
+              <a href="" class="social-contact-link">
+                <svg
+                  class="contact-icon"
+                  width="24"
+                  height="24"
+                  aria-label="instagram icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-contact-item">
+              <a href="" class="social-contact-link">
+                <svg
+                  class="contact-icon"
+                  width="24"
+                  height="24"
+                  aria-label="twitter icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-contact-item">
+              <a href="" class="social-contact-link">
+                <svg
+                  class="contact-icon"
+                  width="24"
+                  height="24"
+                  aria-label="facebook icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-contact-item">
+              <a href="" class="social-contact-link">
+                <svg
+                  class="contact-icon"
+                  width="24"
+                  height="24"
+                  aria-label="linkedin icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <svg class="close-button-icon" width="8" height="8">
+            <use href="./images/icons/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
