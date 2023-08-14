@@ -397,7 +397,7 @@ img {
   border-radius: 4px;
   color: var(--lightslate);
   transition: color var(--transition-duration-time-function),
-    border var(--transition-duration-time-function);
+    border-color var(--transition-duration-time-function);
 }
 
 .customer-icon {
@@ -407,7 +407,7 @@ img {
 .customer-link:hover,
 .customer-link:focus {
   color: var(--pressed-state-color);
-  border: 1px solid var(--pressed-state-color);
+  border-color: var(--pressed-state-color);
 }
 
 /* ========== Customers ========== */
@@ -446,14 +446,14 @@ img {
   border: 1px solid var(--cornflower);
   border-radius: 4px;
   transition: background-color var(--transition-duration-time-function),
-    border var(--transition-duration-time-function),
+    border-color var(--transition-duration-time-function),
     box-shadow var(--transition-duration-time-function),
     color var(--transition-duration-time-function);
 }
 
 .filter-button:hover,
 .filter-button:focus {
-  border: 1px solid transparent;
+  border-color: transparent;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--pressed-state-color);
@@ -635,7 +635,7 @@ img {
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-  transform: translateX(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-duration-time-function);
 }
 
@@ -658,6 +658,8 @@ img {
   padding: 0;
   line-height: 0;
   cursor: pointer;
+  transition: background-color var(--transition-duration-time-function),
+    border var(--transition-duration-time-function);
 }
 
 .close-button-icon {
