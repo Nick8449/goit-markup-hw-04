@@ -368,8 +368,8 @@ img {
   gap: 24px;
 }
 
-.team-card:hover .social-contact-link,
-.team-card:focus .social-contact-link {
+.team-card .social-contact-link:hover,
+.team-card .social-contact-link:focus {
   background-color: var(--pressed-state-color);
 }
 
